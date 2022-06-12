@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 usragr=input("This Tool is for educational purposes only. I take no responsibility for the use. To continue tipe in OK")
 if usragr==("OK"):
     print("Hello, i am V-Bot. ")

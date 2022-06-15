@@ -60,7 +60,7 @@ if usragr==("OK"):
                     for line in lines:
                         f.write(line)
                         f.write('\n')
-            elif oschoise==("bash"):
+    elif oschoise==("bash"):
                 OS=input("Linux=1, Mac=2")
                 if OS==("1"):
                     print("Note: to execute this on Linux OS chmod the files first")
